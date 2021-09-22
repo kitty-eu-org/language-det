@@ -1,0 +1,48 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+.DS_Store
+
+
+cmake-build-debug
+dist
+*.egg-info
+build
+
+### C++ template
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
