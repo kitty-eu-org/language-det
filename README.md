@@ -22,7 +22,7 @@ On Windows
 ### python install
 
 - git clone https://github.com/hezhaozhao-git/language-det.git
-- cd  thrift_rpc_code_generate
+- cd  language-det
 - python setup.py install 
 
 ### use in your python code
