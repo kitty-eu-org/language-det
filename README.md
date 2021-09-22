@@ -21,7 +21,7 @@ On Windows
 
 ### python install
 
-- git clone https://github.com/hezhaozhao-git/thrift_rpc_code_generate.git
+- git clone https://github.com/hezhaozhao-git/language-det.git
 - cd  thrift_rpc_code_generate
 - python setup.py install 
 
