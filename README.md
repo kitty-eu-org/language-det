@@ -18,12 +18,15 @@ On Windows
 - Visual Studio 2015 or newer (required for all Python versions, see notes below)
 - CMake >= 3.8 (3.8 was the first version to support VS 2015) or Pip 10+
 
-
 ### python install
 
-- git clone https://github.com/hezhaozhao-git/language-det.git
-- cd  language-det
-- python setup.py install 
+1. Installation method one
+   + git clone https://github.com/hezhaozhao-git/language-det.git
+   + cd  language-det
+   + python setup.py install 
+
+2. Installation method tow
+   + pip install git+https://github.com/hezhaozhao-git/language-det.git
 
 ### use in your python code
 ```python
@@ -32,7 +35,12 @@ ld = LanguageDet()
 ld.language_det("nice to meet you")  # "EN"
 ```
 
+### About to do
+
++ My project and https://stackoverflow.com/questions/39142778/python-how-to-determine-the-language these language detect packages compare the test performance
+
 ### reference
+
 - [pybind11](https://github.com/pybind/pybind11)
 - [langdetectpp](https://github.com/scivey/langdetectpp)
 
